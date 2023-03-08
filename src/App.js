@@ -1,9 +1,6 @@
-import React from 'react';
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-function App() {
-  return (
-    <><h1>Hello, World!</h1></>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
