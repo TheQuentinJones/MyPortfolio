@@ -1,15 +1,9 @@
-import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import React from 'react';
 
-const App = () => {
-
-    <div>
-        <Header />
-        <PortfolioContainer />
-        <Footer />
-    </div>
-};
+function App() {
+  return (
+    <><h1>Hello, World!</h1></>
+  );
+}
 
 export default App;
