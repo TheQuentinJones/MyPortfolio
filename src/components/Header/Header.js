@@ -4,10 +4,10 @@ const Header = () => {
 
 
     <nav class="navbar has-background-black hast-text-white" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="#about">
-          <p>Elevated<span>Code</span></p>
-        </a>
+      <div class="navbar-brand is-flex is-justify-content-center">
+        <div class="navbar-item">
+          <p className='is-size-3'>Quentin <span style={{ color: 'blue'}}>Jones</span></p>
+        </div>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
@@ -18,16 +18,16 @@ const Header = () => {
 
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item" href='#about'>
+            <a class="navbar-item" href='/MyPortfolio'>
               About
             </a>
 
-            <a class="navbar-item" href='#portfolio'>
+            <a class="navbar-item" href='/portfolio'>
               Portfolio
             </a>
 
-            <a class="navbar-item" href='#resume'>
-              Resume
+            <a class="navbar-item" href='/contact'>
+              Contact
             </a>
 
             <div class="navbar-item has-dropdown is-hoverable">

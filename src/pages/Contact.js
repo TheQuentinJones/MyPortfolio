@@ -2,35 +2,31 @@ export default function Contact() {
 
 
   return (
-    <div style={{ height: '95vh'}}>
+    <div style={{ height: '80vh'}}>
       <h1>Contact Page</h1>
       <div className='container'>
-        <h1 className='is-size-2 has-text-centered'>Your Info</h1>
-        <form style={{ margin: '4rem',}}>
+        <h1 className='is-size-1 has-text-centered' style={{ margin: '3rem', padding: '3rem'}}>Your Info</h1>
+        <form className='' style={{ margin: '4rem',}}>
           <div className="field">
-            <p className="control has-icons-left has-icons-right">
+            <label class="label">Name</label>
+            <p className="control has-icons-left has-icons-right">              
               <input className="input is-small" type="name" placeholder="Your Name" style={{ width: '20vw'}} />
               <span className="icon is-small is-left">
                 <i className="fas fa-envelope"></i>
               </span>
-              <span className="icon is-small is-right">
-                <i className="fas fa-check"></i>
-              </span>
             </p>
           </div>
           <div className="field">
-            <p className="control has-icons-left">
+            <label class="label">Email</label>
+            <p className="control has-icons-left">            
               <input className="input is-small" type="email" placeholder="Your Email" style={{ width: '20vw'}} />
-              <span className="icon is-small is-left">
-                <i className="fas fa-envelope"></i>
-              </span>
             </p>
           </div>
           <div>
           <div class="field">
             <label class="label">Message</label>
             <div class="control">
-              <textarea class="textarea" placeholder="Textarea"></textarea>
+              <textarea class="textarea is-small" placeholder="Your Message"></textarea>
             </div>
           </div>  
           </div>
