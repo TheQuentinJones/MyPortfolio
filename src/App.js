@@ -4,23 +4,23 @@ import AboutMe from './pages/AboutMe'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
 import Resume from './pages/Resume'
-import Footer from './components/Footer/Footer'
+import Footer from "./components/Footer/Footer";
 
 
 const App = () => {
 
 return (
 
-    <body>
+    <div className='has-background-black'>
         <Header />
         <div>
             <AboutMe />
-            <Contact />
             <Portfolio />
             <Resume />
+            <Contact />
         </div>
         <Footer />
-    </body>
+    </div>
     
     
     )

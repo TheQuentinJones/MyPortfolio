@@ -1,10 +1,9 @@
-
-
 const Header = () => {
 
   return (
 
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+
+    <nav class="navbar has-background-black hast-text-white" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="#about">
           <p>Elevated<span>Code</span></p>
