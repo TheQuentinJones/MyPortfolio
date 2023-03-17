@@ -18,15 +18,15 @@ const Header = () => {
 
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item">
+            <a class="navbar-item" href='#about'>
               About
             </a>
 
-            <a class="navbar-item">
+            <a class="navbar-item" href='#portfolio'>
               Portfolio
             </a>
 
-            <a class="navbar-item">
+            <a class="navbar-item" href='#resume'>
               Resume
             </a>
 
