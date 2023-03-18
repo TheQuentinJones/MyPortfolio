@@ -1,9 +1,16 @@
 import React from 'react';
+import Download from '../components/Download/Download'
 
 export default function Education() {
   return (
     <div id='/education' style={{ height: '80vh'}}>
-      <h1>Education</h1>
+
+      <Download />
+      
+      <h1 className='is-size-3'>Education</h1>
+
+
+
 
     </div>
   );
