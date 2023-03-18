@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Header = () => {
 
   return (
@@ -18,17 +20,21 @@ const Header = () => {
 
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item" href='/MyPortfolio'>
-              About
-            </a>
+            <div class="navbar-item">
+              <Link to='/MyPortfolio'>Home</Link>
+            </div>
 
-            <a class="navbar-item" href='/portfolio'>
-              Portfolio
-            </a>
+            <div class="navbar-item" >
+             <Link to='/portfolio'>Portfolio</Link>  
+            </div>
 
-            <a class="navbar-item" href='/contact'>
-              Contact
-            </a>
+            <div class="navbar-item" >
+             <Link to='/contact'>Contact</Link>  
+            </div>
+
+            <div class="navbar-item" >
+             <Link to='/education'>Education</Link>  
+            </div>
 
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link">

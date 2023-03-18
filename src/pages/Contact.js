@@ -2,8 +2,7 @@ export default function Contact() {
 
 
   return (
-    <div style={{ height: '80vh'}}>
-      <h1>Contact Page</h1>
+    <div id='/contact' style={{ height: '80vh'}}>
       <div className='container'>
         <h1 className='is-size-1 has-text-centered' style={{ margin: '3rem', padding: '3rem'}}>Your Info</h1>
         <form className='' style={{ margin: '4rem',}}>
