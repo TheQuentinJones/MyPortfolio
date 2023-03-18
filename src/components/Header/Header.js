@@ -25,7 +25,7 @@ const Header = () => {
             </div>
 
             <div class="navbar-item" >
-             <Link to='/portfolio'>Portfolio</Link>  
+             <Link to='/projects'>Portfolio</Link>  
             </div>
 
             <div class="navbar-item" >

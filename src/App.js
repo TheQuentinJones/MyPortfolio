@@ -18,7 +18,7 @@ return (
             <div>
                 <Routes>
                     <Route path='/MyPortfolio' element={ <AboutMe />}/>
-                    <Route path='/portfolio' element={ <Portfolio /> }/>
+                    <Route path='/projects' element={ <Portfolio /> }/>
                     <Route path='/education' element={ <Education /> }/>
                     <Route path='/contact' element={ <Contact /> }/>
                 </Routes>

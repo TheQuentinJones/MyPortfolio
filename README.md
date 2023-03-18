@@ -6,6 +6,8 @@
           
   This is my react portfolio. This website gives the user a little about me and shows off my work as an engineer. I get to showcase my skills to future employers and peers as well as a general audience.
 
+  In this project I use CSS, Bulma, HTML, Node.js, React.js, and JavaScript.
+
 ![Deployed Application Homepage](./src/images/screenshot%20React%20Portfolio.jpg)
          
   ## Table of Contents
