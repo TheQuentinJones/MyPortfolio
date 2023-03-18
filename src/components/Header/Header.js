@@ -29,12 +29,14 @@ const Header = () => {
             </div>
 
             <div class="navbar-item" >
+             <Link to='/education'>Education</Link>  
+            </div>
+            
+            <div class="navbar-item" >
              <Link to='/contact'>Contact</Link>  
             </div>
 
-            <div class="navbar-item" >
-             <Link to='/education'>Education</Link>  
-            </div>
+            
 
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link">
