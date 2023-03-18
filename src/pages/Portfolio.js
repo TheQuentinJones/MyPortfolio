@@ -4,7 +4,7 @@ export default function Portfolio() {
   return (
     <div id='/projects'style={{ minHeight: '80vh'}}>
 
-      <h1>Projects</h1>
+      <h1 className='has-text-centered is-size-2'>Projects</h1>
       <div className='is-flex is-flex-direction-row'>
         <div className='cardholder' style={{ height: '30rem', width: '20rem', marginTop: '6rem', marginLeft: '6rem'}}>
           <a href='https://workhive1.herokuapp.com'>
