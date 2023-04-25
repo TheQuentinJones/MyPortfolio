@@ -1,49 +1,27 @@
-import React from 'react';
+import React from 'react'
+import Download from '../Download/Download'
 import './Header.css'
-import { Link } from 'react-router-dom';
+import Socials from '../Socials/Socials'
 
 const Header = () => {
-
   return (
+    <header>
+      <div className="container header__container">
+        <h5>Hello I'm</h5>
+        <h1>Quentin Jones</h1>
+        <h5 className="text-light">Fullstack Software Engineer</h5>
+        <Download />
 
+        <Socials />
 
-    <nav class="navbar has-background-black hast-text-white" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand is-flex is-justify-content-center">
-        <div class="navbar-item">
-          <p className='is-size-3'>Quentin <span style={{ color: 'blue'}}>Jones</span></p>
-        </div>     
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <div class="navbar-item">
-              <Link to='/MyPortfolio'>Home</Link>
-            </div>
-
-            <div class="navbar-item" >
-             <Link to='/projects'>Projects</Link>  
-            </div>
-
-            <div class="navbar-item" >
-             <Link to='/education'>Education</Link>  
-            </div>
-            
-            <div class="navbar-item" >
-             <Link to='/contact'>Contact</Link>  
-            </div>
-          </div>      
-
-
+        <div className="me">
+          <img src='https://i.postimg.cc/43x1qK8q/noback22.png' alt='the engineer' style={{ height: 400, width: 400 }}></img>
         </div>
-          {/* eslint-disable-next-line */}
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-    </nav>
 
-      
+        <a href="#contact" className="scroll__down">Scroll Down</a>
+      </div>
+    </header>
   )
-};
+}
 
 export default Header;

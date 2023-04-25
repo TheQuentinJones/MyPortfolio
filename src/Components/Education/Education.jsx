@@ -1,13 +1,11 @@
-import React from 'react';
+import React from 'react'
 import './Education.css';
-import Download from '../Download/Download';
+// import Download from '../Download/Download';
 
-export default function Education() {
+const Education = () => {
   return (
-    <div id='/education' style={{ height: '80vh'}}>
-
-      <Download />      
-    
-    </div>
-  );
+    <div>Education</div>
+  )
 }
+
+export default Education

@@ -3,7 +3,7 @@ import './Portfolio.css'
 
 export default function Portfolio() {
   return (
-    <div id='/projects'style={{ minHeight: '80vh'}}>
+    <section id='/projects'style={{ minHeight: '80vh'}}>
 
       <h1 className='has-text-centered is-size-2'>Projects</h1>
       <div className='is-flex is-flex-direction-row'>
@@ -68,6 +68,6 @@ export default function Portfolio() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
