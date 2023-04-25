@@ -9,7 +9,7 @@ const Socials = () => {
 
     return (
 
-        <section className="header__socials">            
+        <div className="header__socials">            
             <a href='https://www.github.com/TheQuentinJones'> 
                 <GoMarkGithub size={28} />
             </a>
@@ -22,7 +22,7 @@ const Socials = () => {
             <a href='https://twitter.com/QueTheRealtor'>
                 <CgTwitter size={28} />
             </a>            
-        </section>
+        </div>
         
     )
 }

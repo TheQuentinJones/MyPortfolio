@@ -6,7 +6,7 @@ export default function About() {
 
   
   return (
-    <div id='/about'style={{ minheight: '80vh'}}>
+    <section id='about'>
       <h1 className='is-size-1 has-text-centered has-text-link' style={{ margin: '2rem'}}>About the Engineer</h1>
       <div className='columns'>
         <div className='column is-flex is-align-items-center has-text-centered' style={{ padding: '7rem'}}>
@@ -15,10 +15,7 @@ export default function About() {
             well as some federal work force experinece. Welcome to my website. A lot of work went into this website as coding has become a passion of mine.
           </p>
         </div>
-        <div className='column'>
-          <img src='https://i.postimg.cc/43x1qK8q/noback22.png' alt='the engineer' style={{ height: '40rem', marginLeft: '3rem'}}></img>
-        </div>
       </div>
-    </div>
+    </section>
   );
 }
