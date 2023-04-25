@@ -1,3 +1,5 @@
+import React from 'react';
+import './Footer.css'
 import { GoMarkGithub } from 'react-icons/go';
 import { SiLinkedin } from 'react-icons/si'
 import { AiFillInstagram } from 'react-icons/ai'

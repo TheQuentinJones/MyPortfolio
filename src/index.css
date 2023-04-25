@@ -21,10 +21,10 @@ html {
 :root {
 
     --color-bg: #191919;
-    /* --color-bg-variant: _______;
-    --color-primary: _________;
-    --color-primary-variant: _____;
-    --color-white:_____; */
+    --color-bg-variant: #444;
+    --color-primary: hsl(227, 71%, 44%);
+    --color-primary-variant: hsl(204, 62%, 57%);
+    --color-white: #fff;
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm:	90%;

@@ -1,5 +1,6 @@
 import React from 'react';
-import Download from '../Download/Download'
+import './Education.css';
+import Download from '../Download/Download';
 
 export default function Education() {
   return (
