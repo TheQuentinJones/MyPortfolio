@@ -3,6 +3,7 @@ import './Portfolio.css'
 import  IMG1  from '../../Assets/Screenshot-WorkHive.jpg'
 import  IMG2  from '../../Assets/Fitness4U-screenshot.jpg'
 import  IMG3  from '../../Assets/Screenshot-MovingParts.jpg'
+import IMG4 from '../../Assets/screenshot-tech-roundup.jpg'
 
 const portfolioData = [
 
@@ -26,6 +27,13 @@ const portfolioData = [
     title: 'MovingParts',
     github: 'https://github.com/boy-son/Moving-Parts',
     livesite: 'https://boy-son.github.io/Moving-Parts/'
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Tech Roundup',
+    github: 'https://github.com/TheQuentinJones/python-newfeed',
+    livesite: 'https://tech-roundup.herokuapp.com/'
   }
 
 ]
