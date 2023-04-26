@@ -24,6 +24,7 @@
 .portfolio__item-image {
 
     border-radius: 1.5rem;
+    height: 8rem;
     overflow: hidden;
 }
 
