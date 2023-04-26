@@ -6,6 +6,7 @@ import Portfolio from './Components/Portfolio/Portfolio';
 import Education from './Components/Education/Education';
 import Nav from './Components/Nav/Nav'
 import Experience from './Components/Experience/Experience'
+import Footer from "./Components/Footer/Footer";
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -21,6 +22,7 @@ return (
         <Experience />
         <Education />
         <Contact />
+        <Footer />
     </>
 
     // <Router>
