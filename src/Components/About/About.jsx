@@ -1,5 +1,8 @@
 import React from 'react';
 import './About.css';
+import { FaAward } from 'react-icons/fa'
+import { GiDiploma } from 'react-icons/gi'
+import { SiFiles } from 'react-icons/si'
 
 
 export default function About() {
@@ -7,13 +10,42 @@ export default function About() {
   
   return (
     <section id='about'>
-      <h1 className='is-size-1 has-text-centered has-text-link' style={{ margin: '2rem'}}>About the Engineer</h1>
-      <div className='columns'>
-        <div className='column is-flex is-align-items-center has-text-centered' style={{ padding: '7rem'}}>
-          <p style={{ marginLeft: '2rem'}}>
-            Hello world! My name is Quentin and I am a budding software engineer. I have a diverse background that includes sales and customer service as 
-            well as some federal work force experinece. Welcome to my website. A lot of work went into this website as coding has become a passion of mine.
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
+
+      <div className="container about__container">
+        <div className="about__me">
+          <div className="about__me-image">
+            <img src="https://avatars.githubusercontent.com/u/120281980?s=400&u=7a1d590cd096ed6bdb60fb2ab93c557ee72c9348&v=4" alt="fun pic" />
+          </div>
+        </div>
+        <div className="about__content">
+          <div className="about__cards">
+            <article className="about__card">
+              <FaAward className='about__icon'/>
+              <h5>Experience</h5>
+              <small>3+ Years</small>
+            </article>
+
+            <article className="about__card">
+              <GiDiploma className='about__icon'/>
+              <h5>Certifications</h5>
+              <small>3</small>
+            </article>
+
+            <article className="about__card">
+              <SiFiles className='about__icon'/>
+              <h5>Projects</h5>
+              <small>15+ Completed</small>
+            </article>
+
+          </div>
+
+          <p>
+            This is an About me section.
           </p>
+
+          <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
     </section>

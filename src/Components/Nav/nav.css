@@ -26,3 +26,16 @@ nav a {
  font-size: 1.1rem;
 
 }
+
+nav a:hover {
+
+    background: rgba( 0, 0, 0, 0.3 )
+
+}
+
+nav a.active {
+
+    background: var(--color-bg);
+    color: var(--color-white);
+
+}
