@@ -42,7 +42,10 @@ export default function About() {
           </div>
 
           <p>
-            This is an About me section.
+            I am committed to producing impeccable code and achieving development objectives within tight schedules. 
+            I have experience as a Full Stack Developer on several projects, including a social media application, a fitness application, and a tech blog. 
+            I hold a Certificate in Full Stack Coding Bootcamp from the University of Central Florida and am proficient in a wide range of programming languages 
+            and tools, including HTML, CSS, Javascript, React.js, Node.js, Github & Git, Python, Java, C#, Express.js, AWS, MongoDB, MySQL, GraphQL, and Web API.            
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>

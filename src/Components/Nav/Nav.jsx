@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaHome } from 'react-icons/fa'
 import { FaUserAlt } from 'react-icons/fa'
-import { MdSchool } from 'react-icons/md'
+// import { MdSchool } from 'react-icons/md'
 import { FaBook } from 'react-icons/fa'
 import { FaPen } from 'react-icons/fa'
 import { AiFillMessage } from 'react-icons/ai'
@@ -18,7 +18,7 @@ const Nav = () => {
       <a href="#about" onClick={ () => setActiveNave('#about') } className={activeNav === '#about' ? 'active' : '' }><FaUserAlt /></a>
       <a href="#portfolio" onClick={ () => setActiveNave('#portfolio') } className={activeNav === '#portfolio' ? 'active' : '' }><FaPen /></a>
       <a href="#experience" onClick={ () => setActiveNave('#experience') }className={activeNav === '#experience' ? 'active' : '' }><FaBook /></a>
-      <a href="#education" onClick={ () => setActiveNave('#education') }className={activeNav === '#education' ? 'active' : '' }><MdSchool /></a>
+      {/* <a href="#education" onClick={ () => setActiveNave('#education') }className={activeNav === '#education' ? 'active' : '' }><MdSchool /></a> */}
       <a href="#contact" onClick={ () => setActiveNave('#contact') }className={activeNav === '#contact' ? 'active' : '' }><AiFillMessage /></a>
     </nav>
   )

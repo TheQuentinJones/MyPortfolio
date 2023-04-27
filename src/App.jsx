@@ -3,7 +3,7 @@ import Header from './Components/Header/Header';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Portfolio from './Components/Portfolio/Portfolio';
-import Education from './Components/Education/Education';
+// import Education from './Components/Education/Education';
 import Nav from './Components/Nav/Nav'
 import Experience from './Components/Experience/Experience'
 import Footer from "./Components/Footer/Footer";
@@ -20,7 +20,7 @@ return (
         <About />
         <Portfolio />
         <Experience />
-        <Education />
+        {/* <Education /> */}
         <Contact />
         <Footer />
     </>
