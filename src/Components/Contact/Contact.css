@@ -59,7 +59,8 @@ form {
 
 }
 
-input, textarea {
+input, 
+textarea {
 
     width: 100%;
     padding: 1.5rem;
@@ -75,7 +76,7 @@ input, textarea {
 
 @media  screen and (max-width: 1024px) {
 
-    .contact.container.contact__container {
+    .container.contact__container {
 
         grid-template-columns: 1fr;
         gap: 2rem;
