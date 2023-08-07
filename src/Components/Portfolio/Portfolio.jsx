@@ -4,6 +4,7 @@ import  IMG1  from '../../Assets/Screenshot-WorkHive.jpg'
 import  IMG2  from '../../Assets/Fitness4U-screenshot.jpg'
 import  IMG3  from '../../Assets/Screenshot-MovingParts.jpg'
 import IMG4 from '../../Assets/screenshot-tech-roundup.jpg'
+import IMG5 from '../../Assets/screenshot-WeatherApp.jpg'
 
 const portfolioData = [
 
@@ -34,6 +35,13 @@ const portfolioData = [
     title: 'Tech Roundup',
     github: 'https://github.com/TheQuentinJones/python-newfeed',
     livesite: 'https://tech-roundup.herokuapp.com/'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'WeatherApp',
+    github: 'https://github.com/TheQuentinJones/WeatherApp',
+    livesite: 'https://thequentinjones.github.io/WeatherApp/'
   }
 
 ]
