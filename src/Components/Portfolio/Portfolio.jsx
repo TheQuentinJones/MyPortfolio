@@ -12,8 +12,8 @@ const portfolioData = [
     id: 1,
     image: IMG1,
     title: 'SocialHive',
-    github: 'https://the-social-hive-2f9b38244e14.herokuapp.com/',
-    livesite: 'https://workhive1.herokuapp.com'
+    github: 'https://github.com/TrentLe/WorkHive',
+    livesite: 'https://the-social-hive-2f9b38244e14.herokuapp.com/'
   },
   {
     id: 2,
