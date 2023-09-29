@@ -29,13 +29,13 @@ const portfolioData = [
     github: 'https://github.com/boy-son/Moving-Parts',
     livesite: 'https://boy-son.github.io/Moving-Parts/'
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Tech Roundup',
-    github: 'https://github.com/TheQuentinJones/python-newfeed',
-    livesite: 'https://tech-roundup.herokuapp.com/'
-  },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: 'Tech Roundup',
+  //   github: 'https://github.com/TheQuentinJones/python-newfeed',
+  //   livesite: 'https://tech-roundup.herokuapp.com/'
+  // },
   {
     id: 5,
     image: IMG5,
